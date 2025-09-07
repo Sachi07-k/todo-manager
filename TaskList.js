@@ -1,5 +1,5 @@
 import React from "react";
-import "./TaskManager.css"; // Import shared CSS
+import "./TaskManager.css";
 
 function TaskList({ tasks, setInput, setEditId, deleteTask, toggleComplete }) {
   return (
@@ -49,3 +49,4 @@ function TaskList({ tasks, setInput, setEditId, deleteTask, toggleComplete }) {
 }
 
 export default TaskList;
+
