@@ -1,4 +1,3 @@
-/* General App Styling */
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #7f00ff, #e100ff);
@@ -21,7 +20,6 @@ body {
   animation: fadeIn 0.8s ease-in-out;
 }
 
-/* Title */
 h1 {
   text-align: center;
   font-size: 26px;
@@ -82,7 +80,6 @@ li span {
   font-weight: 500;
 }
 
-/* Emoji Buttons (Edit/Delete) */
 li button {
   margin-left: 8px;
   background: transparent;
