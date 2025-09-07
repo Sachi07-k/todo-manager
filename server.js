@@ -5,7 +5,6 @@ import bodyParser from "body-parser";
 import sqlite3 from "sqlite3";
 import { open } from "sqlite";
 
-// Load environment variables
 dotenv.config();
 
 const app = express();
@@ -56,3 +55,4 @@ app.delete("/tasks/:id", async (req, res) => {
 
 // Start server
 app.listen(5000, () => console.log("✅ Server running at http://localhost:5000"));
+
